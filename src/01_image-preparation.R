@@ -1,8 +1,8 @@
 #-----------------------------------------------------------------------------------------------------------------------
 
 # Title:  Image preparation
-# Date:   July 2022
-# Author: Marcus Becker
+# Date:   Oct 13, 2022
+# Author: Marcus Becker, Cassie Stevenson
 
 # Description: Connect to the WildTrax database and create a dataframe of downloadable links to images of various
 #              species. Sample from these images, download them, and store them for supplemental tagging (in Timelapse).
