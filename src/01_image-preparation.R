@@ -21,13 +21,15 @@ library(purrr)
 library(lubridate)
 
 # Set path to Google Drive
-root <- "G:/Shared drives/ABMI Camera Mammals/"
+## root <- "G:/Shared drives/ABMI Camera Mammals/"
 
 #-----------------------------------------------------------------------------------------------------------------------
 
 # Define functions:
 
 # Establish connection to WildTrax database
+
+
 wt_conn <- function(username, password) {
 
   conn <- DBI::dbConnect(drv = DBI::dbDriver("PostgreSQL"),
